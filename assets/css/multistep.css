@@ -1,0 +1,25 @@
+/*option[value="page_break"]:checked {
+  background-color:blue !important;
+}*/
+
+/*select[data-setting='field_type']:not(option[value="page_break"]):checked {
+  background-color:blue !important;
+}
+
+select[data-setting='field_type'] {
+  background-color:red !important;
+}*/
+
+/*elementor-repeater-fields:has( select[value="page_break"] )*/
+.page_break_item div.elementor-repeater-row-tools div {
+  background-color: #a6a6a6 !important;
+}
+.original_title_multistep {
+  display:none;
+}
+
+
+/*
+.elementor-control-field-description {
+
+}*/
